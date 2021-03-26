@@ -104,7 +104,7 @@ export default function EditProfile({ match }) {
           <TextField id="name" label="Name" className={classes.textField} value={values.name} onChange={handleChange('name')} margin="normal"/><br/>
           <TextField
             id="multiline-flexible"
-            label="About"
+            label="Button Answer"
             multiline
             rows="2"
             value={values.about}
